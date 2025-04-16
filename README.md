@@ -34,7 +34,7 @@ Help a Switzerland mid-scale wireless service provider reduce customer churn.
 EDA focused on identifying trends between customer attributes and churn, especially:
 
 - **Tenure:** Most customers leave within the 1st month or stay beyond 6 years.
-![Customer Tenure]("histplot_tenure.png")
+![Customer Tenure](histplot_tenure.png)
 - **Senior Citizens:** Represented 83% of the dataset.
 - **Contract Types:** Majority (≈55%) opted for **month-to-month** contracts.
 - **Churn Rate:** 26% (1,860 out of 7,026 customers), which aligns with industry standards (20–40% annually).
@@ -42,10 +42,10 @@ EDA focused on identifying trends between customer attributes and churn, especia
 ### Key Observations:
 
 - **Monthly Charges:** Most customers pay ~$19–$20.
-![Customer Monthly Charges]("histplot_monthly_charges.png")
+![Customer Monthly Charges](histplot_monthly_charges.png)
 - **Total Charges:** Higher charges are associated with fewer customers.
 - **Churned customers** often have higher average charges than non-churned.
-![Customer Monthly Charges vs Churn]("boxplot_monthly.png")
+![Customer Monthly Charges vs Churn](boxplot_monthly.png)
 
 ---
 
@@ -57,8 +57,8 @@ EDA focused on identifying trends between customer attributes and churn, especia
 - **Target Variables:** Monthly Charges, Tenure, Churn
 - **Test Accuracy:** ✅ **76%**
 - **Evaluation Metrics:** ROC Curve & Confusion Matrix
-![Receiver Operating Characteristic]("ROC.png")
-![Confusion Matrix]("Confusion_Matrix.png")
+![Receiver Operating Characteristic](ROC.png)
+![Confusion Matrix](Confusion_Matrix.png)
 
 ### 2. **Linear Regression**
 
